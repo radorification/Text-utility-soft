@@ -11,14 +11,14 @@ function App() {
       msg: message,  //Can be different than "message" like: 'msg' used in here
       type: type,    //Or even can be same as used here: 'type' in both cases
     })
-    setTimeout(() =>{
-      setAlert= (null);
-    },1500);
+   // setTimeout(() =>{
+     // setAlert= (null);
+    //},1500);
   }
   
   return (
     <>
-<Navbar title="TextUtils3" ></Navbar>
+<Navbar title="TextWiz" ></Navbar>
 <Alert alert={alert}></Alert>
 <TextArea showAlert={showAlert}></TextArea>
     </>
